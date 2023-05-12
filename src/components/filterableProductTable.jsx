@@ -62,7 +62,7 @@ function ProductTable({ products, filterText, inStockOnly }) {
       rows.push(
         <ProductCategoryRow
           category={product.category}
-          key={product.category} />
+          key={product.category} /> 
       );
     }
     rows.push(
